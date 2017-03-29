@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Himanshu Doi</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Add custom CSS here -->
+    <link href="css/slidefolio.css" rel="stylesheet">
+	<!-- Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+        <h2>RURAL HEALTH STATISTICS - 2016</h2>
+		    <h3>Visualization of Health worker’s data based on demography</h3>
+  
+			   <br>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="portfolio">
+    <div class="container">
+    <div class="row push50">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>My Work ( <a href="https://www.dropbox.com/s/poc0lkbvyhvfdkz/regions.xlsx?dl=0">docs</a> )</h2>
+			<h4>
+			<span class="filter label label-default" data-filter="all">ALL</span>
+	<span class="filter label label-default fa fa-map-marker" data-filter="state">State-Wise</span>
+	<span class="filter label label-default fa fa-globe" data-filter="region">Region-Wise</span>
+	</h4>
+            <hr>
+          </div>
+        </div>
+		
+		<div class="row">
+		
+		<div class="gallery">
+		
+    		  <ul id="Grid" class="gcontainer">
+    		    
+            <li class="col-md-4 col-sm-4 col-xs-12 mix state" data-cat="state">
+              <a data-toggle="modal" data-target="#state1" class="mix-cover">
+                <img class="horizontal" src="img/state1.png" alt="Health Workers per Million population">
+      		      <span class="overlay"><span class="valign"></span><span class="title sizing">Health Workers per Million population</span></span>
+              </a>                
+      		  </li>
+    		    
+            <li class="col-md-4 col-sm-4 col-xs-12 mix state" data-cat="state">
+                <a data-toggle="modal" data-target="#state2" class="mix-cover">
+                  <img class="horizontal" src="img/state2.png" alt="Health Workers Required">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Health Workers Required</span></span>
+                </a>                
+      		  </li>
+			      
+            <li class="col-md-4 col-sm-4 col-xs-12 mix state" data-cat="state">
+                <a data-toggle="modal" data-target="#state3" class="mix-cover">
+                  <img class="horizontal" src="img/state3.png" alt="Health Workers Sanctioned">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Health Workers Sanctioned</span></span>
+        		    </a>
+      		  </li>
+      		  
+            <li class="col-md-4 col-sm-4 col-xs-12 mix state" data-cat="state">
+                <a data-toggle="modal" data-target="#state4" class="mix-cover">
+                  <img class="horizontal" src="img/state4.png" alt="Health Workers In-Position">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Health Workers In-Position</span></span>
+        		    </a>
+      		  </li>
+			      
+            <li class="col-md-4 col-sm-4 col-xs-12 mix state" data-cat="state">
+                <a data-toggle="modal" data-target="#state5" class="mix-cover">
+                  <img class="horizontal" src="img/state5.png" alt="no. of Vacant Positions of Health Workers">
+        		       <span class="overlay"><span class="valign"></span><span class="title">no. of Vacant Positions of Health Workers</span></span>
+        		    </a>
+      		  </li>
+			      <li class="col-md-4 col-sm-4 col-xs-12 mix state all" data-cat="state">
+                <a data-toggle="modal" data-target="#state6" class="mix-cover">
+                  <img class="horizontal" src="img/state6.png" alt="Shortfall of Health Workers">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Shortfall of Health Workers </span></span>
+        		    </a>
+      		  </li>
+      		  <li class="col-md-4 col-sm-4 col-xs-12 mix state all" data-cat="state">
+                <a data-toggle="modal" data-target="#state7" class="mix-cover green">
+                  <img class="vertical" src="img/state7.png" alt="no. of Health Workers Required vs Sanctioned">
+                  <span class="overlay"><span class="valign"></span><span class="title">no. of Health Workers Required vs Sanctioned</span></span>           
+        		    </a>
+      		  </li>
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix state all" data-cat="state">
+                <a data-toggle="modal" data-target="#state8" class="mix-cover green">
+                  <img class="vertical" src="img/state8.png" alt="Excess Health Workers Sanctioned">
+                   <span class="overlay"><span class="valign"></span><span class="title">Excess Health Workers Sanctioned</span></span>                    
+        		    </a>
+      		  </li>
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix state all" data-cat="state">
+                <a data-toggle="modal" data-target="#state9" class="mix-cover green">
+                  <img class="vertical" src="img/state9.png" alt="Excess Health Workers In-Position">
+                   <span class="overlay"><span class="valign"></span><span class="title">Excess Health Workers In-Position</span></span>                  
+        		    </a>
+      		  </li>
+        <li class="col-md-4 col-sm-4 col-xs-12 mix state all" data-cat="state">
+                <a data-toggle="modal" data-target="#state10" class="mix-cover green">
+                  <img class="vertical" src="img/state10.png" alt="Lack of Health Workers Sanctioned">
+                   <span class="overlay"><span class="valign"></span><span class="title">Lack of Health Workers Sanctioned</span></span>                  
+                </a>
+            </li>
+            
+        <li class="col-md-4 col-sm-4 col-xs-12 mix state all" data-cat="state">
+                <a data-toggle="modal" data-target="#state11" class="mix-cover green">
+                  <img class="vertical" src="img/state11.png" alt="Ratio In-position by Required">
+                   <span class="overlay"><span class="valign"></span><span class="title">Ratio of In-position by Required </span></span>                  
+                </a>
+            </li>
+        <li class="col-md-4 col-sm-4 col-xs-12 mix state all" data-cat="state">
+                <a data-toggle="modal" data-target="#state12" class="mix-cover green">
+                  <img class="vertical" src="img/state12.png" alt="Ratio In-position by Sanctioned">
+                   <span class="overlay"><span class="valign"></span><span class="title">Ratio of In-position by Sanctioned</span></span>                  
+                </a>
+            </li><li class="col-md-4 col-sm-4 col-xs-12 mix state all" data-cat="state">
+                <a data-toggle="modal" data-target="#state13" class="mix-cover green">
+                  <img class="vertical" src="img/state13.png" alt="Health Workers Required in proportion to Population">
+                   <span class="overlay"><span class="valign"></span><span class="title">Health Workers Required in proportion to Population</span></span>                  
+                </a>
+            </li><li class="col-md-4 col-sm-4 col-xs-12 mix state all" data-cat="state">
+                <a data-toggle="modal" data-target="#state14" class="mix-cover green">
+                  <img class="vertical" src="img/state14.png" alt="Health Workers In-position in proportion to Population">
+                   <span class="overlay"><span class="valign"></span><span class="title">Health Workers In-position in proportion to Population</span></span>                  
+                </a>
+            </li>    
+
+
+
+            <li class="col-md-4 col-sm-4 col-xs-12 mix region all" data-cat="state">
+                <a data-toggle="modal" data-target="#region1" class="mix-cover green">
+                  <img class="vertical" src="img/region1.png" alt="Health Workers In-position in proportion to Population">
+                   <span class="overlay"><span class="valign"></span><span class="title">Health Workers per Million Population</span></span>                  
+                </a>
+            </li> 
+            <li class="col-md-4 col-sm-4 col-xs-12 mix region all" data-cat="state">
+                <a data-toggle="modal" data-target="#region2" class="mix-cover green">
+                  <img class="vertical" src="img/region2.png" alt="Health Workers In-position in proportion to Population">
+                   <span class="overlay"><span class="valign"></span><span class="title">Region-wise Health Workers Required</span></span>                  
+                </a>
+            </li> 
+            <li class="col-md-4 col-sm-4 col-xs-12 mix region all" data-cat="state">
+                <a data-toggle="modal" data-target="#region3" class="mix-cover green">
+                  <img class="vertical" src="img/region3.png" alt="Health Workers In-position in proportion to Population">
+                   <span class="overlay"><span class="valign"></span><span class="title">Region-wise Shortfall of Health Workers</span></span>                  
+                </a>
+            </li> 
+            <li class="col-md-4 col-sm-4 col-xs-12 mix region all" data-cat="state">
+                <a data-toggle="modal" data-target="#region4" class="mix-cover green">
+                  <img class="vertical" src="img/region4.png" alt="Health Workers In-position in proportion to Population">
+                   <span class="overlay"><span class="valign"></span><span class="title">Region-wise Excess In-position</span></span>                  
+                </a>
+            </li> 
+            <li class="col-md-4 col-sm-4 col-xs-12 mix region all" data-cat="state">
+                <a data-toggle="modal" data-target="#region6" class="mix-cover green">
+                  <img class="vertical" src="img/region6.png" alt="Health Workers In-position in proportion to Population">
+                   <span class="overlay"><span class="valign"></span><span class="title">Region-wise lack of Health Workers Sanctioned</span></span>                  
+                </a>
+            </li> 
+            <li class="col-md-4 col-sm-4 col-xs-12 mix region all" data-cat="state">
+                <a data-toggle="modal" data-target="#region5" class="mix-cover green">
+                  <img class="vertical" src="img/region5.png" alt="Health Workers In-position in proportion to Population">
+                   <span class="overlay"><span class="valign"></span><span class="title">Region-wise In-position by Sanctioned</span></span>                  
+                </a>
+            </li> 
+            <li class="col-md-4 col-sm-4 col-xs-12 mix region all" data-cat="state">
+                <a data-toggle="modal" data-target="#region7" class="mix-cover green">
+                  <img class="vertical" src="img/region7.png" alt="Health Workers In-position in proportion to Population">
+                   <span class="overlay"><span class="valign"></span><span class="title">Region-wise ratio of Health Workers Required by Population</span></span>                  
+                </a>
+            </li> 
+            <li class="col-md-4 col-sm-4 col-xs-12 mix region all" data-cat="state">
+                <a data-toggle="modal" data-target="#region8" class="mix-cover green">
+                  <img class="vertical" src="img/region8.png" alt="Health Workers In-position in proportion to Population">
+                   <span class="overlay"><span class="valign"></span><span class="title">Region-wise ratio of Health Workers In-position by Population</span></span>                  
+                </a>
+            </li> 
+    		  </ul>   
+			  
+<!-- Load Photo in Modal -->			  
+<div class="modal fade" id="state1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Health Workers per Million population</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state1" src="img/state1.png"/>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+  <div class="modal fade" id="state2" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Health Workers Required</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state2" src="img/state2.png"/>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="state3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Health Workers Sanctioned</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state3" src="img/state3.png"/>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="state4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Health Workers Sanctioned</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state4" src="img/state4.png"/>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="state5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">no. of Vacant Positions of Health Workers</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state5" src="img/state5.png"/>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="state6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Shortfall of Health Workers</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state6" src="img/state6.png"/>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="state7" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">no. of Health Workers Required vs Sanctioned  </h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state7" src="img/state7.png"/>
+       <p>• The vertical bars in this visualization shows the no. of Health workers required for each state and the horizontal lines represent the no. of health workers sanctioned for that state.
+       </p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="state8" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">States with Excess Health Workers Sanctioned</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state8" src="img/state8.png"/>
+       <p>
+       •  Major states with the maximum no. of excess health workers sanctioned.
+       </p>
+       <p>
+       •  Size shows the no. of excess health workers sanctioned for each state, with the number represented.
+       </p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="state9" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">States with Excess Health Workers In-Position</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state9" src="img/state9.png"/>
+       <p>
+       •  The graph shows state wise distribution of excess health workers In Position.
+       </p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="state10" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">States with Lack of Health Workers Sanctioned</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state10" src="img/state10.png"/>
+       <p>
+        • The graph shows lack of health workers sanctioned for each state. Color shows health workers required.
+       </p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="state11" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Ratio of In-position by Required </h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state11" src="img/state11.png"/>
+       •  This Visualization shows the ratio of no. of health workers in position to the no. of health workers required for each state. The states that lie above and below unity line are the states with excess workers in position and shortfall of workers in position than required respectively.
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="state12" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Ratio of In-position by Sanctioned</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state12" src="img/state12.png"/>
+       •  This visualization shows the ratio of no. of health workers in position to the no. of health workers sanctioned for each state. The states that lie above and below the unity line are the states with excess health workers currently in position and job positions vacant respectively.
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="state13" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Health Workers Required in proportion to Population</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state13" src="img/state13.png"/>
+       •  This visualization shows the ratio of scaled requirement of health workers in each state to the scaled population of each state. Highest peaks denote that the requirement of workers in that state is very high in proportion to the population of the state, Eg: States of North east.
+       <br>
+        • Smaller peaks denote that even though the population is more, the requirement is not proportional to it. Eg: Rajasthan.
+       <br>
+        • States below the unity line have either unavailable data for health workers required or the requirement is very less in proportion to the state population. Eg: Bihar
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="state14" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Health Workers In-position in proportion to Population</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="state14" src="img/state14.png"/>
+       •  This visualization shows the ratio of scaled no. of health workers in-position in each state to the scaled population of each state. Highest peaks denote that the no. of workers currently working in that state is very high in proportion to the population of the state, Eg: Lakshadweep & States of North east.
+       <br>• Smaller peaks denote that even though the population is more, the workers in-position is not proportional to it. Eg: .Kerala, Gujrat, Rajasthan.
+       <br>• States below the unity line have either unavailable data for health workers in-position or the no. of workers in-position are very less in proportion to the state population. Eg: Bihar, Karnataka.
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal fade" id="region1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Health Workers per Million Population</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="region1" src="img/region1.png"/>
+
+• Color shows the population of each region, the latter increasing with the color intensity.
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="region2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Region-wise Health Workers Required</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="region2" src="img/region2.png"/>
+       •  Color shows the population of each region, the latter increasing with the color intensity.
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="region3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Region-wise Shortfall of Health Workers</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="region3" src="img/region3.png"/>
+       •  Color shows the no. of health workers sanctioned in that region, the latter increasing with the color intensity.
+<br>• West region of India has the maximum no. of health workers sanctioned but still has a considerable shortfall. This is due to the lack 976 workers in-position in Gujrat than required.
+<br>• North-east region of India shows the 2nd highest shortfall due to lack of 1000 health workers in position in West Bengal.
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="region4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Region-wise Excess In-position</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="region4" src="img/region4.png"/>
+       •  Color shows the no. of health workers sanctioned in each region, the latter increasing with the color intensity.
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="region5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Region-wise lack of Health Workers Sanctioned</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="region5" src="img/region5.png"/>
+      • Size shows lack of health workers sanctioned.
+<br> • North East is the major region with 2222 workers sanctioned less than required.
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="region6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Region-wise In-position by Sanctioned</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="region6" src="img/region6.png"/>
+       •  Regions above unity line have excess in-position than sanctioned, and regions below unity line have lack of in-position than sanctioned.
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="region7" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Region-wise ratio of Health Workers Required by Population</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="region7" src="img/region7.png"/>
+      • This visualization shows the ratio of scaled requirement of health workers in each region to the scaled population of each region. Highest peaks denote that the requirement of workers in that region is very high in proportion to the population of the region, Eg: Central and North east.
+<br>• Smaller peaks denote that even though the population is more, the requirement is not proportional to it. Eg: East and West regions.
+<br>• Regions below the unity line have either unavailable data for health workers required or the requirement is very less in proportion to the region population. Eg: North, South and South Central region.
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="region8" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Region-wise ratio of Health Workers In-position by Population</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="region8" src="img/region8.png"/>
+       •  This visualization shows the ratio of scaled no. of health workers in-position in each region to the scaled population of each region. Highest peaks denote that the no. of workers currently working in that region is very high in proportion to the population of the region, Eg: Central & North east regions.
+<br>• Smaller peaks denote that even though the population is more, the workers in-position is not proportional to it. Eg: East and West regions.
+<br>• Regions below the unity line have either unavailable data for health workers in-position or the no. of workers in-position are very less in proportion to the region population. Eg: North and South regions.
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- /Load Photo in Modal -->	
+		</div>	
+      </div>
+		</div>
+      </div>
+    <!-- /Portfolio -->
+
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+		        <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Contact Me</h2>
+			         <hr>
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+		  <!-- contact form starts -->
+            
+            <form action="contact" id="contact-form" class="form-horizontal">
+			           <fieldset>
+						          <label class="col-sm-4 control-label" for="name">Himanshu Doi</label>
+						          <label class="col-sm-4 control-label" for="email">himanshudoi.iitkgp@gmail.com</label>    
+						          <label class="col-sm-4 control-label" for="message">+91-7699086427</label>
+					        	</fieldset>
+					      	</form>
+				
+				<!-- contact form ends -->		
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Contact -->
+    
+    <!-- /Footer -->
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+	<script src="js/jquery-scrolltofixed-min.js"></script>
+	<script src="js/jquery.vegas.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
+<!-- Slideshow Background  -->
+	<script>
+$.vegas('slideshow', {
+  delay:1000,
+  backgrounds:[
+     { src:'./img/nature1.jpg', fade:500 },
+	 { src:'./img/bw1.jpg', fade:500 },
+    { src:'./img/portrait1.jpg', fade:500 },
+	 { src:'./img/portrait5.jpg', fade:500 },
+    { src:'./img/portrait2.jpg', fade:500 },
+    { src:'./img/portrait3.jpg', fade:500 },
+	 { src:'./img/portrait4.jpg', fade:500 },
+	   { src:'./img/forest.jpg', fade:500 }
+	   
+  ]
+})('overlay', {
+src:'./img/overlay.png'
+});
+
+	</script>
+<!-- /Slideshow Background -->
+
+<!-- Mixitup : Grid -->
+    <script>
+		$(function(){
+    $('#Grid').mixitup();
+      });
+    </script>
+<!-- /Mixitup : Grid -->	
+
+    <!-- Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 300);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+<!-- Navbar -->
+<script type="text/javascript">
+$(document).ready(function() {
+        $('#nav').scrollToFixed();
+  });
+    </script>
+<!-- /Navbar-->
+	
+  </body>
+
+</html>
